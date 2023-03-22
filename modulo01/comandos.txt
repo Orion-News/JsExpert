@@ -1,0 +1,10 @@
+nvm install 20 -> instala a versao 17, (nao existe ainda versao 20!)
+nvm install 19 -> instala a versao 19 - sempre instale a versao LTS.
+nvm install --lts -> instala a vers∆o long-term support (vers∆o recomendada).
+nvm list lista a versao das versao instaladas pelo npm.
+nvm use 18 -> usa a versao que ja esta instalado na minha maquina (para mudar versao j† instaladas).
+nvm alias default -> define a versao padrao do node.js na maquina.
+
+criar .nvmrc com a vers∆o desejada e nvvm use para ativar aquela vers∆o.
+
+node -v > .nvmrc -> salva a vers∆o apropriada para aquele projeto.
